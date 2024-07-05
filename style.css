@@ -3,7 +3,6 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   text-align: center;
 }
 
 body {
@@ -16,43 +15,41 @@ body {
    max-width: 1200px;
    margin: 0 auto;
    padding: 20px;
-
 }
 
 .vada {
-   display: flex;
+   /* display: flex; */
    flex-wrap: wrap;
    gap: 20px;
    margin-bottom: 20px;
 }
-.sweden{
- 
-   text-align: center;
-}
+
 .vada1 {
-   flex: 1;
+   /* flex: 1; */
    min-width: 250px;
    padding: 15px;
    border: 1px solid #ccc;
    border-radius: 5px;
 }
-.pipous, .pipous1 {
-   display: block;
+.sweden{
    text-align: center;
-}
 
+}
 
 .parent {
    margin-top: 15px;
-   
+}
+.parent1, .parent2, .parent3, .parent4, .parent5, .parent6{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+   text-align: center;
 }
 
 .parent p {
-   display: flex;
+   /* display: flex; */
    align-items: center;
    margin-bottom: 10px;
-   justify-content: center;
- 
 }
 
 .manola {
@@ -68,27 +65,19 @@ input[type="text"] {
 }
 
 .henry {
-   display: flex;
+   /* display: flex; */
    flex-wrap: wrap;
    gap: 10px;
    margin-bottom: 20px;
-   text-align: center;
 }
 
 .henry1 {
-   flex: 1;
+   /* flex: 1; */
    min-width: 100px;
    height: 100px;
    background-color: #f0f0f0;
    border: 1px solid #ccc;
    border-radius: 5px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
- /* Additional styles to center text in other elements */
- h1, h2, h3, h4, h5, h6, p, span, div {
-   text-align: center;
 }
 
 /* Responsive adjustments */
