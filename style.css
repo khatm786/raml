@@ -1,0 +1,103 @@
+/* Reset default margins and paddings */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+}
+
+.container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+
+}
+
+.vada {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin-bottom: 20px;
+}
+.sweden{
+ 
+   text-align: center;
+}
+.vada1 {
+   flex: 1;
+   min-width: 250px;
+   padding: 15px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+.pipous, .pipous1 {
+   display: block;
+   text-align: center;
+}
+
+
+.parent {
+   margin-top: 15px;
+   
+}
+
+.parent p {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   justify-content: center;
+ 
+}
+
+.manola {
+   font-size: 24px;
+   color: blue;
+   margin-right: 10px;
+}
+
+input[type="text"] {
+   flex: 1;
+   padding: 5px;
+   margin: 0 10px;
+}
+
+.henry {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.henry1 {
+   flex: 1;
+   min-width: 100px;
+   height: 100px;
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+ /* Additional styles to center text in other elements */
+ h1, h2, h3, h4, h5, h6, p, span, div {
+   text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+   .vada1 {
+       flex-basis: 100%;
+   }
+   
+   .henry1 {
+       flex-basis: calc(50% - 5px);
+   }
+}
