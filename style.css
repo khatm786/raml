@@ -90,3 +90,10 @@ input[type="text"] {
        flex-basis: calc(50% - 5px);
    }
 }
+
+
+#ggroup1, #ggroup2,#ggroup3,#ggroup4{
+   background-color: bisque;
+   border-radius: 1px solid black;
+   padding: 5px;
+}
